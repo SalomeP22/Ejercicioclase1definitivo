@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation= "vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="@string/titulo"
+        android:textAlignment="center"
+        android:textSize="20sp"
+
+        >
+
+    </TextView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/actividad"
+            android:textSize="20sp"
+            >
+        </TextView>
+
+        <EditText
+            android:layout_width="145dp"
+            android:layout_height="34dp">
+
+        </EditText>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/productos"
+            android:textSize="20sp"
+            >
+        </TextView>
+
+        <EditText
+            android:layout_width="145dp"
+            android:layout_height="34dp">
+
+        </EditText>
+
+
+    </LinearLayout>
+    
+    <Button
+        android:layout_width="415dp"
+        android:layout_height="54dp"
+      android:text="Ingresar">
+
+    </Button>
+
+
+</LinearLayout>
